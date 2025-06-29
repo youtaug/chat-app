@@ -4,7 +4,7 @@ import openai
 import PyPDF2
 
 # Set OpenAI API key
-openai.api_key = os.getenv("OPENAI_API_KEY") or "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"
+openai.api_key = os.getenv("OPENAI_API_KEY") or "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"
 
 # Load PDF content (conversation log and manual) on startup
 pdf_text = ""
